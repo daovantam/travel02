@@ -1,7 +1,10 @@
 package com.daovantam.travel02.model.request;
 
+import com.daovantam.travel02.Validation.NOTBLANK;
+
 public class UserRequest {
 
+    @NOTBLANK
     private String userName;
     private String password;
     private String fullName;
